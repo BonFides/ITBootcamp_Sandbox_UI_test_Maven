@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>TestNG:  Unit tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Unit tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed May 20 16:36:17 EEST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>839 seconds (839155 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.sandbox.UItest.tests.ProductsPageTestNG.addProd()'><b>addProd</b><br>Test class: com.sandbox.UItest.tests.ProductsPageTestNG</td>
+<td></td>
+<td>45</td>
+<td>com.sandbox.UItest.tests.ProductsPageTestNG@6d2a209c</td></tr>
+<tr>
+<td title='com.sandbox.UItest.tests.RegPageTestNG.checkIfUserReg()'><b>checkIfUserReg</b><br>Test class: com.sandbox.UItest.tests.RegPageTestNG</td>
+<td></td>
+<td>325</td>
+<td>com.sandbox.UItest.tests.RegPageTestNG@161479c6</td></tr>
+<tr>
+<td title='com.sandbox.UItest.tests.ProductsPageTestNG.checkIfadded()'><b>checkIfadded</b><br>Test class: com.sandbox.UItest.tests.ProductsPageTestNG</td>
+<td></td>
+<td>2</td>
+<td>com.sandbox.UItest.tests.ProductsPageTestNG@6d2a209c</td></tr>
+<tr>
+<td title='com.sandbox.UItest.tests.ProductsPageTestNG.editProdPrice()'><b>editProdPrice</b><br>Test class: com.sandbox.UItest.tests.ProductsPageTestNG</td>
+<td></td>
+<td>12</td>
+<td>com.sandbox.UItest.tests.ProductsPageTestNG@6d2a209c</td></tr>
+<tr>
+<td title='com.sandbox.UItest.tests.LogInPageTestNG.failLogInUnknownUser()'><b>failLogInUnknownUser</b><br>Test class: com.sandbox.UItest.tests.LogInPageTestNG</td>
+<td></td>
+<td>2</td>
+<td>com.sandbox.UItest.tests.LogInPageTestNG@75329a49</td></tr>
+<tr>
+<td title='com.sandbox.UItest.tests.RegPageTestNG.invalidConfPass()'><b>invalidConfPass</b><br>Test class: com.sandbox.UItest.tests.RegPageTestNG</td>
+<td></td>
+<td>27</td>
+<td>com.sandbox.UItest.tests.RegPageTestNG@161479c6</td></tr>
+<tr>
+<td title='com.sandbox.UItest.tests.RegPageTestNG.invalidRegNoEmail()'><b>invalidRegNoEmail</b><br>Test class: com.sandbox.UItest.tests.RegPageTestNG</td>
+<td></td>
+<td>21</td>
+<td>com.sandbox.UItest.tests.RegPageTestNG@161479c6</td></tr>
+<tr>
+<td title='com.sandbox.UItest.tests.RegPageTestNG.invalidRegNoPass()'><b>invalidRegNoPass</b><br>Test class: com.sandbox.UItest.tests.RegPageTestNG</td>
+<td></td>
+<td>23</td>
+<td>com.sandbox.UItest.tests.RegPageTestNG@161479c6</td></tr>
+<tr>
+<td title='com.sandbox.UItest.tests.RegPageTestNG.invalidRegNoUserName()'><b>invalidRegNoUserName</b><br>Test class: com.sandbox.UItest.tests.RegPageTestNG</td>
+<td></td>
+<td>21</td>
+<td>com.sandbox.UItest.tests.RegPageTestNG@161479c6</td></tr>
+<tr>
+<td title='com.sandbox.UItest.tests.LogInPageTestNG.logInKnownUser()'><b>logInKnownUser</b><br>Test class: com.sandbox.UItest.tests.LogInPageTestNG</td>
+<td></td>
+<td>8</td>
+<td>com.sandbox.UItest.tests.LogInPageTestNG@75329a49</td></tr>
+<tr>
+<td title='com.sandbox.UItest.tests.RegPageTestNG.regUsers()'><b>regUsers</b><br>Test class: com.sandbox.UItest.tests.RegPageTestNG</td>
+<td></td>
+<td>248</td>
+<td>com.sandbox.UItest.tests.RegPageTestNG@161479c6</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-20T16:36:17 EEST" name="Suite" finished-at="2020-05-20T16:50:16 EEST" duration-ms="839155">
+    <groups>
+    </groups>
+    <test started-at="2020-05-20T16:36:17 EEST" name="Unit tests" finished-at="2020-05-20T16:50:16 EEST" duration-ms="839155">
+      <class name="com.sandbox.UItest.tests.RegPageTestNG">
+        <test-method is-config="true" signature="openBrowserCreateAcc()[pri:0, instance:com.sandbox.UItest.tests.RegPageTestNG@161479c6]" started-at="2020-05-20T16:38:19 EEST" name="openBrowserCreateAcc" finished-at="2020-05-20T16:38:26 EEST" duration-ms="7221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserCreateAcc -->
+        <test-method signature="regUsers()[pri:1, instance:com.sandbox.UItest.tests.RegPageTestNG@161479c6]" started-at="2020-05-20T16:38:26 EEST" name="regUsers" finished-at="2020-05-20T16:42:35 EEST" duration-ms="248827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regUsers -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.sandbox.UItest.tests.RegPageTestNG@161479c6]" started-at="2020-05-20T16:42:35 EEST" name="closeBrowser" finished-at="2020-05-20T16:42:36 EEST" duration-ms="1199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowserCreateAcc()[pri:0, instance:com.sandbox.UItest.tests.RegPageTestNG@161479c6]" started-at="2020-05-20T16:42:36 EEST" name="openBrowserCreateAcc" finished-at="2020-05-20T16:42:44 EEST" duration-ms="7398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserCreateAcc -->
+        <test-method signature="checkIfUserReg()[pri:2, instance:com.sandbox.UItest.tests.RegPageTestNG@161479c6]" started-at="2020-05-20T16:42:44 EEST" name="checkIfUserReg" finished-at="2020-05-20T16:48:09 EEST" duration-ms="325294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfUserReg -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.sandbox.UItest.tests.RegPageTestNG@161479c6]" started-at="2020-05-20T16:48:09 EEST" name="closeBrowser" finished-at="2020-05-20T16:48:10 EEST" duration-ms="1078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowserCreateAcc()[pri:0, instance:com.sandbox.UItest.tests.RegPageTestNG@161479c6]" started-at="2020-05-20T16:48:10 EEST" name="openBrowserCreateAcc" finished-at="2020-05-20T16:48:17 EEST" duration-ms="6696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserCreateAcc -->
+        <test-method signature="invalidRegNoEmail()[pri:3, instance:com.sandbox.UItest.tests.RegPageTestNG@161479c6]" started-at="2020-05-20T16:48:17 EEST" name="invalidRegNoEmail" finished-at="2020-05-20T16:48:38 EEST" duration-ms="21721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidRegNoEmail -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.sandbox.UItest.tests.RegPageTestNG@161479c6]" started-at="2020-05-20T16:48:38 EEST" name="closeBrowser" finished-at="2020-05-20T16:48:39 EEST" duration-ms="1024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowserCreateAcc()[pri:0, instance:com.sandbox.UItest.tests.RegPageTestNG@161479c6]" started-at="2020-05-20T16:48:39 EEST" name="openBrowserCreateAcc" finished-at="2020-05-20T16:48:46 EEST" duration-ms="6711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserCreateAcc -->
+        <test-method signature="invalidRegNoUserName()[pri:4, instance:com.sandbox.UItest.tests.RegPageTestNG@161479c6]" started-at="2020-05-20T16:48:46 EEST" name="invalidRegNoUserName" finished-at="2020-05-20T16:49:07 EEST" duration-ms="21227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidRegNoUserName -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.sandbox.UItest.tests.RegPageTestNG@161479c6]" started-at="2020-05-20T16:49:07 EEST" name="closeBrowser" finished-at="2020-05-20T16:49:08 EEST" duration-ms="986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowserCreateAcc()[pri:0, instance:com.sandbox.UItest.tests.RegPageTestNG@161479c6]" started-at="2020-05-20T16:49:08 EEST" name="openBrowserCreateAcc" finished-at="2020-05-20T16:49:15 EEST" duration-ms="6723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserCreateAcc -->
+        <test-method signature="invalidRegNoPass()[pri:5, instance:com.sandbox.UItest.tests.RegPageTestNG@161479c6]" started-at="2020-05-20T16:49:15 EEST" name="invalidRegNoPass" finished-at="2020-05-20T16:49:39 EEST" duration-ms="23841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidRegNoPass -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.sandbox.UItest.tests.RegPageTestNG@161479c6]" started-at="2020-05-20T16:49:39 EEST" name="closeBrowser" finished-at="2020-05-20T16:49:40 EEST" duration-ms="1039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowserCreateAcc()[pri:0, instance:com.sandbox.UItest.tests.RegPageTestNG@161479c6]" started-at="2020-05-20T16:49:40 EEST" name="openBrowserCreateAcc" finished-at="2020-05-20T16:49:46 EEST" duration-ms="6615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserCreateAcc -->
+        <test-method signature="invalidConfPass()[pri:6, instance:com.sandbox.UItest.tests.RegPageTestNG@161479c6]" started-at="2020-05-20T16:49:46 EEST" name="invalidConfPass" finished-at="2020-05-20T16:50:14 EEST" duration-ms="27739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidConfPass -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.sandbox.UItest.tests.RegPageTestNG@161479c6]" started-at="2020-05-20T16:50:14 EEST" name="closeBrowser" finished-at="2020-05-20T16:50:15 EEST" duration-ms="1173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.sandbox.UItest.tests.RegPageTestNG -->
+      <class name="com.sandbox.UItest.tests.ProductsPageTestNG">
+        <test-method is-config="true" signature="openBrowserLogIn()[pri:0, instance:com.sandbox.UItest.tests.ProductsPageTestNG@6d2a209c]" started-at="2020-05-20T16:36:17 EEST" name="openBrowserLogIn" finished-at="2020-05-20T16:36:41 EEST" duration-ms="24075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserLogIn -->
+        <test-method signature="addProd()[pri:1, instance:com.sandbox.UItest.tests.ProductsPageTestNG@6d2a209c]" started-at="2020-05-20T16:37:18 EEST" name="addProd" finished-at="2020-05-20T16:38:03 EEST" duration-ms="45225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProd -->
+        <test-method signature="checkIfadded()[pri:2, instance:com.sandbox.UItest.tests.ProductsPageTestNG@6d2a209c]" started-at="2020-05-20T16:38:03 EEST" name="checkIfadded" finished-at="2020-05-20T16:38:06 EEST" duration-ms="2642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfadded -->
+        <test-method signature="editProdPrice()[pri:3, instance:com.sandbox.UItest.tests.ProductsPageTestNG@6d2a209c]" started-at="2020-05-20T16:38:06 EEST" name="editProdPrice" finished-at="2020-05-20T16:38:19 EEST" duration-ms="12794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editProdPrice -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.sandbox.UItest.tests.ProductsPageTestNG@6d2a209c]" started-at="2020-05-20T16:50:15 EEST" name="closeBrowser" finished-at="2020-05-20T16:50:16 EEST" duration-ms="919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.sandbox.UItest.tests.ProductsPageTestNG -->
+      <class name="com.sandbox.UItest.tests.LogInPageTestNG">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.sandbox.UItest.tests.LogInPageTestNG@75329a49]" started-at="2020-05-20T16:36:41 EEST" name="launchBrowser" finished-at="2020-05-20T16:36:53 EEST" duration-ms="11883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="logInKnownUser()[pri:1, instance:com.sandbox.UItest.tests.LogInPageTestNG@75329a49]" started-at="2020-05-20T16:36:53 EEST" name="logInKnownUser" finished-at="2020-05-20T16:37:01 EEST" duration-ms="8114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInKnownUser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.sandbox.UItest.tests.LogInPageTestNG@75329a49]" started-at="2020-05-20T16:37:01 EEST" name="closeBrowser" finished-at="2020-05-20T16:37:03 EEST" duration-ms="1302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.sandbox.UItest.tests.LogInPageTestNG@75329a49]" started-at="2020-05-20T16:37:03 EEST" name="launchBrowser" finished-at="2020-05-20T16:37:15 EEST" duration-ms="12013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="failLogInUnknownUser()[pri:2, instance:com.sandbox.UItest.tests.LogInPageTestNG@75329a49]" started-at="2020-05-20T16:37:15 EEST" name="failLogInUnknownUser" finished-at="2020-05-20T16:37:17 EEST" duration-ms="2609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failLogInUnknownUser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.sandbox.UItest.tests.LogInPageTestNG@75329a49]" started-at="2020-05-20T16:37:17 EEST" name="closeBrowser" finished-at="2020-05-20T16:37:18 EEST" duration-ms="895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.sandbox.UItest.tests.LogInPageTestNG -->
+    </test> <!-- Unit tests -->
+  </suite> <!-- Suite -->
+</testng-results>

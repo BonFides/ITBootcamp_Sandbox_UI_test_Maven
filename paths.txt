@@ -1,0 +1,41 @@
+USERNAME`MisaMisic
+PASS`Misa.123
+EXAMPLE_USERNAME`PavlePavlic
+EXAMPLE_PASS`Pavle.123
+EXAMPLE_EMAIL`pavle123@gmail.com
+LOGIN_URL`https://sandbox.2checkout.com/sandbox
+SUCCESSLOGIN_URL`https://sandbox.2checkout.com/sandbox/home/dashboard
+LOGIN_URLERROR`https://sandbox.2checkout.com/sandbox/login
+LOGIN_USERNAME`//input[@placeholder='Username']
+LOGIN_PASS`//input[@id='password']
+LOGIN_FORGOTPASS`//a[@id='forgot-password']
+LOGIN_MISSUSERPASS`//p[contains(text(),'Missing')]
+LOGIN_BTN`//input[@class='btn blue']
+CREATEACC_URL`https://sandbox.2checkout.com/sandbox/acct/create_username
+CREATEACC_EMAIL`//input[@name='email_address']
+CREATEACC_USER`//input[@name='username']
+CREATEACC_PASS`//input[@name='password']
+CREATEACC_CONFPASS`//input[@name='password_check']
+CREATEACC_SUBMIT`//input[@name='submit']
+CREATEACC_INVALEMAIL`//span[contains(text(),'Invalid Email Address')]
+CREATACC_INVALUSER`//span[contains(text(),'Invalid Username')]
+CREATEACC_INVALPASS`//span[contains(text(),'Invalid Password')]
+CREATEACC_PASSNOTMATCH`//span[contains(text(), 'not match')]
+CREATACC_USERLISTURL`https://sandbox.2checkout.com/sandbox/acct/list_usernames
+ACCAVATAR_INFO`//div[@id='account-avatar']
+ACCAVATARINFO_LOGOUT`//a[@id='logout']
+PROD_URL`https://sandbox.2checkout.com/sandbox/products/
+PROD_ADDNEWLINK`//a[@class='context-btn add']
+PROD_ADDNEWURL`https://sandbox.2checkout.com/sandbox/products/create_product
+PROD_SUBMITNEW`//input[@name='submit']
+PROD_VALIDSUBMITNEW`//span[@class='form_valid large']
+PROD_FAILSUBMITNEW`//span[@class='form_invalid large']
+PROD_NAMESUBMITNEW`//input[@name='name']
+PROD_PRICESUBMITNEW`//input[@name='price']
+PROD_VIEWLINK`//a[contains(text(),'View')]
+PROD_VIEWURL`https://sandbox.2checkout.com/sandbox/products/list_products
+PROD_EDITLINK`//a[contains(text(),'Edit')]
+PROD_EDITURL`https://sandbox.2checkout.com/sandbox/products/edit_products
+PROD_EDITPRICE`//*[contains(@name, 'price_')]
+PROD_EDITPRICESAVECHANGES`//input[@class='context-btn save']
+PROD_EDITUPDATESUCCEEDED`//span[@class='form_valid']
